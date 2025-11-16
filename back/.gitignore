@@ -1,0 +1,195 @@
+# ==========================================
+# PYTHON - ENTORNOS VIRTUALES
+# ==========================================
+venv/
+env/
+ENV/
+.venv
+.env
+.env.local
+.env.*.local
+.penv
+
+
+# ==========================================
+# PYTHON - COMPILADOS & CACHE
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ==========================================
+# ENTORNOS VIRTUALES DE PYTHON
+# ==========================================
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+
+# ==========================================
+# UNITTEST & TESTING
+# ==========================================
+.pytest_cache/
+.hypothesis/
+test-results/
+coverage/
+.coverage
+*.cover
+htmlcov/
+
+
+# ==========================================
+# VARIABLES DE ENTORNO (¡SEGURIDAD!)
+# ==========================================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+*.pem
+*.key
+*.pub
+
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+*.log.*
+debug.log
+error.log
+access.log
+*.out
+
+
+# ==========================================
+# IDEs & EDITORES
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+.idea/
+.idea_modules/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings
+*.sublime-workspace
+*.sublime-project
+.spyproject
+.spyproject
+
+
+# ==========================================
+# SISTEMAS OPERATIVOS
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+.Trash-*
+
+
+# ==========================================
+# ARCHIVOS TEMPORALES & CACHE
+# ==========================================
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+*.cache
+.DS_Store
+.eslintcache
+.turbo
+.env.example.local
+
+
+# ==========================================
+# BANCOS DE DATOS
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+database.db
+
+
+# ==========================================
+# ARCHIVOS COMPILADOS
+# ==========================================
+*.class
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+
+# ==========================================
+# FASTAPI & UVICORN ESPECÍFICOS
+# ==========================================
+instance/
+.webassets-cache
+*.pyc
+.Python
+pip-log.txt
+
+
+# ==========================================
+# OTROS
+# ==========================================
+.vercel
+.turbo
+*.orig
+migrations/versions/__pycache__/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.env.prod
+.env.dev

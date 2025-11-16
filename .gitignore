@@ -1,0 +1,205 @@
+# ==========================================
+# .gitignore GLOBAL - Ejemplo para Alumnos
+# ==========================================
+# Este archivo ignora archivos basura, temporales
+# y secretos (.env) en TODO el proyecto
+
+
+# ==========================================
+# DEPENDENCIAS & PACKAGE MANAGERS
+# ==========================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+venv/
+env/
+ENV/
+.venv
+.penv
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# ==========================================
+# VARIABLES DE ENTORNO (¡NUNCA COMMITEAR!)
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+.env.prod
+.env.dev
+.env.example.local
+*.pem
+*.key
+*.pub
+
+
+# ==========================================
+# BUILD, DIST & COMPILADOS
+# ==========================================
+dist/
+dist-ssr/
+build/
+.tsbuildinfo
+*.tgz
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+lib/
+lib64/
+build/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+
+# ==========================================
+# LOGS & DEBUG
+# ==========================================
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+error.log
+access.log
+*.out
+
+
+# ==========================================
+# CACHE & TEMPORAL
+# ==========================================
+.cache/
+.DS_Store
+.eslintcache
+.stylelintcache
+.parcel-cache
+.pytest_cache/
+.hypothesis/
+.coverage
+.coverage.*
+*.cover
+nosetests.xml
+coverage.xml
+htmlcov/
+tmp/
+temp/
+*.tmp
+*.temp
+test-results/
+.next
+out
+*.local
+.nyc_output/
+.turbo
+
+
+# ==========================================
+# IDEs & EDITORES
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+.idea/
+.idea_modules/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings
+*.sublime-workspace
+*.sublime-project
+.spyproject
+.vscode-test
+*.vsix
+.VC.db
+.VC.VC.opendb
+
+
+# ==========================================
+# SISTEMAS OPERATIVOS
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+.Trash-*
+
+
+# ==========================================
+# BASES DE DATOS
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+database.db
+
+
+# ==========================================
+# PYTHON ESPECÍFICOS
+# ==========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+instance/
+.webassets-cache
+
+
+# ==========================================
+# NODE & FRONTEND ESPECÍFICOS
+# ==========================================
+.vercel
+.turbo
+dist
+out
+
+
+# ==========================================
+# ARCHIVOS COMPILADOS
+# ==========================================
+*.class
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+
+# ==========================================
+# OTROS ARCHIVOS A IGNORAR
+# ==========================================
+*.orig
+migrations/versions/__pycache__/
+.env.example.local
+.turbo
+.partytown/

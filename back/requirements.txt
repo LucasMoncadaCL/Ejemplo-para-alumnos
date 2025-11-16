@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+supabase-py
+python-dotenv
+python-jose[cryptography]
+
+# Comentarios para alumnos:
+# - `fastapi` es el framework principal.
+# - `uvicorn` es el servidor ASGI recomendado para desarrollo.
+# - `supabase-py` es el cliente de Python para Supabase (DB + Auth).
+# - `python-jose` se usa para verificar JWTs.

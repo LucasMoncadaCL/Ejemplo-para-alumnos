@@ -1,0 +1,141 @@
+# ==========================================
+# DEPENDENCIAS
+# ==========================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# ==========================================
+# BUILD & DIST
+# ==========================================
+dist/
+dist-ssr/
+build/
+.tsbuildinfo
+*.tgz
+
+
+# ==========================================
+# VARIABLES DE ENTORNO (¡SEGURIDAD!)
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ==========================================
+# ARCHIVOS TEMPORALES & CACHE
+# ==========================================
+.cache/
+.DS_Store
+.eslintcache
+.stylelintcache
+.parcel-cache
+.next
+out
+
+
+# ==========================================
+# EDITORES & IDEs
+# ==========================================
+.vscode/*
+!.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+.idea/
+.idea_modules/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ==========================================
+# SISTEMAS OPERATIVOS
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+.Trash-*
+
+
+# ==========================================
+# IDEs ESPECÍFICOS
+# ==========================================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.VC.db
+*.VC.VC.opendb
+.vscode-test
+*.vsix
+
+
+# ==========================================
+# ARCHIVOS TEMPORALES DE DESARROLLO
+# ==========================================
+*.local
+tmp/
+temp/
+test-results/
+coverage/
+.nyc_output/
+*.pid
+*.seed
+
+
+# ==========================================
+# ARCHIVOS COMPILADOS
+# ==========================================
+*.class
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+
+# ==========================================
+# OTROS
+# ==========================================
+.vercel
+.turbo
+*.orig
+.env.example.local
